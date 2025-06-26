@@ -1,5 +1,5 @@
 import { db } from './firebase';
-import { getFirestore } from "firebase/firestore";
+import { doc, setDoc, getDoc } from "firebase/firestore";
 
 export const salvarFicha = async (uid, ficha) => {
   try {
