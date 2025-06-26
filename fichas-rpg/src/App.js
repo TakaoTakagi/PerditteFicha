@@ -1,6 +1,6 @@
 import { salvarFicha, carregarFicha } from './firebaseService';
 import { useState, useEffect } from "react";
-import Auth from "./components/Auth";
+import { auth } from '../firebase';
 import CharacterSheet from "./components/CharacterSheet";
 
 function App() {
